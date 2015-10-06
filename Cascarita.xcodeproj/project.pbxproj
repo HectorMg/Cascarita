@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7247AF21BC4417100E9EBBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7247AF11BC4417100E9EBBD /* AppDelegate.swift */; };
+		F7247AF41BC4417100E9EBBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7247AF31BC4417100E9EBBD /* ViewController.swift */; };
+		F7247AF71BC4417100E9EBBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7247AF51BC4417100E9EBBD /* Main.storyboard */; };
+		F7247AF91BC4417100E9EBBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7247AF81BC4417100E9EBBD /* Images.xcassets */; };
+		F7247AFC1BC4417100E9EBBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7247AFA1BC4417100E9EBBD /* LaunchScreen.xib */; };
+		F7247B081BC4417100E9EBBD /* CascaritaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7247B071BC4417100E9EBBD /* CascaritaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7247B021BC4417100E9EBBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7247AE41BC4417100E9EBBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7247AEB1BC4417100E9EBBD;
+			remoteInfo = Cascarita;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7247AEC1BC4417100E9EBBD /* Cascarita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cascarita.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7247AF01BC4417100E9EBBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7247AF11BC4417100E9EBBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7247AF31BC4417100E9EBBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7247AF61BC4417100E9EBBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7247AF81BC4417100E9EBBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F7247AFB1BC4417100E9EBBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F7247B011BC4417100E9EBBD /* CascaritaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CascaritaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7247B061BC4417100E9EBBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7247B071BC4417100E9EBBD /* CascaritaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CascaritaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7247AE91BC4417100E9EBBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7247AFE1BC4417100E9EBBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7247AE31BC4417100E9EBBD = {
+			isa = PBXGroup;
+			children = (
+				F7247AEE1BC4417100E9EBBD /* Cascarita */,
+				F7247B041BC4417100E9EBBD /* CascaritaTests */,
+				F7247AED1BC4417100E9EBBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7247AED1BC4417100E9EBBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7247AEC1BC4417100E9EBBD /* Cascarita.app */,
+				F7247B011BC4417100E9EBBD /* CascaritaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7247AEE1BC4417100E9EBBD /* Cascarita */ = {
+			isa = PBXGroup;
+			children = (
+				F7247AF11BC4417100E9EBBD /* AppDelegate.swift */,
+				F7247AF31BC4417100E9EBBD /* ViewController.swift */,
+				F7247AF51BC4417100E9EBBD /* Main.storyboard */,
+				F7247AF81BC4417100E9EBBD /* Images.xcassets */,
+				F7247AFA1BC4417100E9EBBD /* LaunchScreen.xib */,
+				F7247AEF1BC4417100E9EBBD /* Supporting Files */,
+			);
+			path = Cascarita;
+			sourceTree = "<group>";
+		};
+		F7247AEF1BC4417100E9EBBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7247AF01BC4417100E9EBBD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7247B041BC4417100E9EBBD /* CascaritaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7247B071BC4417100E9EBBD /* CascaritaTests.swift */,
+				F7247B051BC4417100E9EBBD /* Supporting Files */,
+			);
+			path = CascaritaTests;
+			sourceTree = "<group>";
+		};
+		F7247B051BC4417100E9EBBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7247B061BC4417100E9EBBD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7247AEB1BC4417100E9EBBD /* Cascarita */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7247B0B1BC4417100E9EBBD /* Build configuration list for PBXNativeTarget "Cascarita" */;
+			buildPhases = (
+				F7247AE81BC4417100E9EBBD /* Sources */,
+				F7247AE91BC4417100E9EBBD /* Frameworks */,
+				F7247AEA1BC4417100E9EBBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cascarita;
+			productName = Cascarita;
+			productReference = F7247AEC1BC4417100E9EBBD /* Cascarita.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7247B001BC4417100E9EBBD /* CascaritaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7247B0E1BC4417100E9EBBD /* Build configuration list for PBXNativeTarget "CascaritaTests" */;
+			buildPhases = (
+				F7247AFD1BC4417100E9EBBD /* Sources */,
+				F7247AFE1BC4417100E9EBBD /* Frameworks */,
+				F7247AFF1BC4417100E9EBBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7247B031BC4417100E9EBBD /* PBXTargetDependency */,
+			);
+			name = CascaritaTests;
+			productName = CascaritaTests;
+			productReference = F7247B011BC4417100E9EBBD /* CascaritaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7247AE41BC4417100E9EBBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = MgDev;
+				TargetAttributes = {
+					F7247AEB1BC4417100E9EBBD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F7247B001BC4417100E9EBBD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F7247AEB1BC4417100E9EBBD;
+					};
+				};
+			};
+			buildConfigurationList = F7247AE71BC4417100E9EBBD /* Build configuration list for PBXProject "Cascarita" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7247AE31BC4417100E9EBBD;
+			productRefGroup = F7247AED1BC4417100E9EBBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7247AEB1BC4417100E9EBBD /* Cascarita */,
+				F7247B001BC4417100E9EBBD /* CascaritaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7247AEA1BC4417100E9EBBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7247AF71BC4417100E9EBBD /* Main.storyboard in Resources */,
+				F7247AFC1BC4417100E9EBBD /* LaunchScreen.xib in Resources */,
+				F7247AF91BC4417100E9EBBD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7247AFF1BC4417100E9EBBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7247AE81BC4417100E9EBBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7247AF41BC4417100E9EBBD /* ViewController.swift in Sources */,
+				F7247AF21BC4417100E9EBBD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7247AFD1BC4417100E9EBBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7247B081BC4417100E9EBBD /* CascaritaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7247B031BC4417100E9EBBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7247AEB1BC4417100E9EBBD /* Cascarita */;
+			targetProxy = F7247B021BC4417100E9EBBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7247AF51BC4417100E9EBBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7247AF61BC4417100E9EBBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7247AFA1BC4417100E9EBBD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7247AFB1BC4417100E9EBBD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7247B091BC4417100E9EBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7247B0A1BC4417100E9EBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7247B0C1BC4417100E9EBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cascarita/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7247B0D1BC4417100E9EBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cascarita/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7247B0F1BC4417100E9EBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CascaritaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cascarita.app/Cascarita";
+			};
+			name = Debug;
+		};
+		F7247B101BC4417100E9EBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CascaritaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cascarita.app/Cascarita";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7247AE71BC4417100E9EBBD /* Build configuration list for PBXProject "Cascarita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7247B091BC4417100E9EBBD /* Debug */,
+				F7247B0A1BC4417100E9EBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7247B0B1BC4417100E9EBBD /* Build configuration list for PBXNativeTarget "Cascarita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7247B0C1BC4417100E9EBBD /* Debug */,
+				F7247B0D1BC4417100E9EBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7247B0E1BC4417100E9EBBD /* Build configuration list for PBXNativeTarget "CascaritaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7247B0F1BC4417100E9EBBD /* Debug */,
+				F7247B101BC4417100E9EBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7247AE41BC4417100E9EBBD /* Project object */;
+}
